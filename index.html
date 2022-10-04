@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/530f5bc4ee.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="alert"></div>
+        <div class="card">
+            <div class="card-header">
+                <h2>Yapılacaklar:</h2>
+                <i id="todo-filter" class="far fa-square"></i>
+            </div>
+            <div class="card-body">
+                <ul class="todo-list"  id="todo-list" data-filter="0">
+                   
+                </ul>
+            </div>
+            <div class="card-footer">
+               <input type="text" id="todo-input" placeholder="Görev ekle"></input> 
+               <button type="submit" id="todo-button"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p >Source: <a  target="_blank" href="https://www.youtube.com/watch?v=O84msxOIdQY">Kadir Kasım</a> </p>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
